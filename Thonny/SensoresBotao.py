@@ -14,10 +14,10 @@ tambor4 = Pin(33, Pin.IN)
 # pedal = machine.ADC(machine.Pin(34))
 
 musica1 = 232 * 3
-musica2 = 207  * 3
-# musica2 = 1
+# musica2 = 207  * 3
+musica2 = 1
 musica3 = 117 * 3
-musica4 = 87 * 3
+musica4 = 84 * 3
 
 #Credenciais do WIFI
 nome = "Celofone da Sasá"
