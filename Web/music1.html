@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./script.js"></script>
+    <title>Seven Nation Army</title>
+</head>
+<!-- Notas:
+prato1 = Cr
+prato2 = Ri
+tambor2 = Ch
+tambor1 = Cx
+tambor3 = T2
+tambor4 = Su
+pedal = Bu -->
+<!-- Músicas:
+Come as you are: https://www.youtube.com/watch?v=EoUZ1Up8F5I&t=40s
+Seven nation army: https://www.youtube.com/watch?v=9jFIoFm_8gk&t=34s
+we will rock you: https://www.youtube.com/watch?v=G-ddbU3HqLk -->
+<body id="Music1">
+    <header class="centralize">
+        <h1 class="font">Seven Nation Army</h1>
+    </header>
+
+    <div class="voltar">
+        <button class="font" onclick="window.location.href='menu.html'">Voltar</button>
+    </div>
+
+    <div class="centralize">
+        <div id="countdown" class="font centralizeVertical">3</div>
+    </div>
+
+    <div class="drums">
+        <div class="belt belt1"></div>
+        <div class="belt belt2"></div>
+        <div class="belt belt3"></div>
+        <!-- <div class="belt belt4"></div> -->
+        <div class="belt belt5"></div>
+        <div class="belt belt6"></div>
+        <div class="belt belt7" ></div>
+        <img id="delayed-image" style="display: none;" src="https://i.postimg.cc/vZY81dPD/b1f14095-1df3-436d-9766-0b7923c6a9d6.png" alt="Bateria">
+    </div>
+    <div id="container" class="delayed-image"></div>
+    <button class="font botaoPontuacao" onclick="window.location.href='pontuacao.html'">Ver pontuação</button>
+    <audio autoplay>
+        <source src="Musics/The White Stripes - 'Seven Nation Army_ (Lyrics).mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio HTML5.
+    </audio>
+
+</body>
+</html>

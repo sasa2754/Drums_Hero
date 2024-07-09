@@ -1,0 +1,378 @@
+body {
+    background-color: #000000;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    margin-left: -1%;
+    margin-right: 100%;
+    margin-top: -0.3%;
+    width: 101.4%;
+    height: 4.3rem;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0 10px 20px 2px #1df2f0;
+}
+
+.font {
+    color: white;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizeVertical {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+.musics {
+    width: 20%;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin: 1%;
+    box-shadow: 0 0 30px #E94BE8;
+    border-radius: 2%;
+}
+
+.musics:hover {
+    transform: scale(1.3);
+}
+
+.positionPerfis {
+    position: absolute;
+    top: 85%;
+    left: 1%;
+}
+
+.perfis {
+    width: 3%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.perfis:hover {
+    transform: scale(1.3);
+}
+
+
+/* Contador do começo do jogo */
+#countdown {
+    font-size: 8rem;
+    text-align: center;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.drums {
+    position: absolute;
+    top: 75.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.belts {
+    position: absolute;
+    top: 75.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.belt1 {
+    width: 3.5rem;
+    height: 115%; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.61);
+    position: absolute;
+    top: -24.5rem; 
+    left: 10%;
+}
+
+.belt2 {
+    width: 3.5rem;
+    height: 140%; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    box-shadow: 0 0 30px rgba(255, 242, 0, 0.61);
+    position: absolute;
+    top: -24.5rem;
+    left: 23%;
+}
+
+.belt3 {
+    width: 3.5rem;
+    height: 123%; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    box-shadow: 0 0 30px rgba(38, 255, 0, 0.61);
+    position: absolute;
+    top: -24.5rem;
+    left: 35%;
+}
+
+/* .belt4 {
+    width: 3.5rem;
+    height: 139.5%;
+    background-color: black;
+    box-shadow: 0 0 30px rgba(0, 242, 255, 0.61);
+    position: absolute;
+    top: -24.5rem;
+    left: 46.3%;
+} */
+
+.belt5 {
+    width: 3.5rem;
+    height: 123%; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    box-shadow: 0 0 30px rgba(0, 30, 255, 0.61);
+    position: absolute;
+    top: -24.5rem;
+    left: 57%;
+}
+
+.belt6 {
+    width: 3.5rem;
+    height: 142%; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    box-shadow: 0 0 30px rgba(157, 0, 255, 0.61);
+    position: absolute;
+    top: -24.5rem;
+    left: 68%;
+}
+
+.belt7 {
+    width: 3.5rem;
+    height: 109%; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    box-shadow: 0 0 30px rgba(255, 0, 221, 0.61);
+    position: absolute;
+    top: -24.5rem;
+    left: 79%;
+}
+
+.voltar {
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+
+
+/* Declaração do estilo dos discos */
+#container {
+  /* position: relative; */
+  width: 100%;
+  /* height: 100vh; */
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    /* height: 50px; */
+    border-radius: 50%;
+    transition: top 3s linear;
+    opacity: 100%;
+}
+
+/* Define as cores dos círculos */
+.circle1 { background-color: rgba(255, 0, 0); height: 50px;}
+.circle2 { background-color: rgba(255, 242, 0); height: 50px;}
+.circle3 { background-color: rgba(38, 255, 0); height: 50px;}
+.circle4 { background-color: rgba(255, 0, 221); height: 50px;}
+.circle5 { background-color: rgba(0, 30, 255); height: 50px;}
+.circle6 { background-color: rgba(157, 0, 255);  height: 50px;}
+/* .circle7 { background-color: rgba(255, 0, 221, 0.61); top: -24.5rem; left: 79%; height: 50px;} */
+
+/* Design do input do index */
+.input {
+  position: absolute;
+  /* max-width: 300px; */
+  height: 70px;
+  width: 50%;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 15px;
+  /* border: 1px solid #ccc; */
+  /* border-bottom-width: 2px; */
+  transition: all 0.3s ease;
+  top: 45%;
+  left: 25%;
+}
+
+.input:valid {
+  border-color: #08ddd9;
+  color: #000000;
+  box-shadow: 2px 2px 8px 1px #31e8e4;
+}
+
+.input:invalid {
+  border-color: #ef07ef;
+  color: #000000;
+  box-shadow: 2px 2px 8px 1px #e762e7;
+  /* translate: -8px 8px 0px 0px; */
+}
+
+.text {
+  margin-top: 20px;
+  color: black;
+}
+
+/* Posição do Digite seu nome para jogar */
+.digitePosition {
+  position: absolute;
+  top: 28%;
+  left: 27.5%;
+  font-size: 25px;
+}
+
+.pontuacaoPosition {
+  font-size: 30px;
+}
+
+.botaoPontuacao { 
+  position: absolute;
+  top: 90%;
+  left: 85%;
+}
+
+/* Design do botão de jogar */
+.jogarPosition {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+}
+
+
+/* Design do lindo botão de voltar */
+button,button::after {
+  padding: 10px 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  position: relative;
+}
+
+button::after {
+  --move1: inset(50% 50% 50% 50%);
+  --move2: inset(31% 0 40% 0);
+  --move3: inset(39% 0 15% 0);
+  --move4: inset(45% 0 40% 0);
+  --move5: inset(45% 0 6% 0);
+  --move6: inset(14% 0 61% 0);
+  clip-path: var(--move1);
+  content: 'Drums';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+button:hover::after {
+  animation: glitch_4011 1s;
+  text-shadow: 10 10px 10px black;
+  animation-timing-function: steps(2, end);
+  text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
+  background-color: transparent;
+  border: 3px solid rgb(0, 255, 213);
+}
+
+button:hover {
+  text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(0, 255, 213);
+  box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+}
+
+@keyframes glitch_4011 {
+  0% {
+    clip-path: var(--move1);
+    transform: translate(0px,-10px);
+  }
+
+  10% {
+    clip-path: var(--move2);
+    transform: translate(-10px,10px);
+  }
+
+  20% {
+    clip-path: var(--move3);
+    transform: translate(10px,0px);
+  }
+
+  30% {
+    clip-path: var(--move4);
+    transform: translate(-10px,10px);
+  }
+
+  40% {
+    clip-path: var(--move5);
+    transform: translate(10px,-10px);
+  }
+
+  50% {
+    clip-path: var(--move6);
+    transform: translate(-10px,10px);
+  }
+
+  60% {
+    clip-path: var(--move1);
+    transform: translate(10px,-10px);
+  }
+
+  70% {
+    clip-path: var(--move3);
+    transform: translate(-10px,10px);
+  }
+
+  80% {
+    clip-path: var(--move2);
+    transform: translate(10px,-10px);
+  }
+
+  90% {
+    clip-path: var(--move4);
+    transform: translate(-10px,10px);
+  }
+
+  100% {
+    clip-path: var(--move1);
+    transform: translate(0);
+  }
+}
+
+  
+  
+

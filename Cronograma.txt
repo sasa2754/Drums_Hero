@@ -1,0 +1,21 @@
+Dia 1 (01/07):
+	Todos: Ideia para o projeto, pesquisa sobre os componentes e materiais necessários.
+	Sabrina: Interface inicial da parte web
+
+Dia 2 (02/07):
+	Nicolle: Código base dos sensores no thonny (Testado com botões, pq não tinhamos os sensores ainda)
+	Sabrina: Escrita das músicas no js e continuação da interface
+
+Dia 3 (03/07):
+	Sabrina: Testar a sensibilidade do sensor e fazer o código de detecção dos sensores
+
+Dia 4 (04/07):
+	Todos: Choramos pq descobrimos que não tem 7 pinos que funcionam na esp, passamos umas 3 horas pra descobrir isso, então tivemos que trocar o código todo pra dar certo só com 6 sensores, também conseguimos mandar para o firebase as informações que sobraram
+
+Dia 5 (05/07):
+	Sabrina: Fazer a proteção de todos os sensores, colocar os jumpers nos sensores, fazer a página web pra pegar o nome do usuário e a música escolhida, mandar essas duas informações para o firebase
+
+Dia 6 (08/07):
+	Sabrina: Arrumar as bolinhas que estavam descendo errado no site, terminar a base da bateria, fazer a tela de pontuação do final do jogo
+	Wallace e Nicolle: Testar se os sensores estão funcionando
+	Nicolle: Arrumar o código para o outro sensor
