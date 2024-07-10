@@ -13,11 +13,12 @@ tambor3 = Pin(25, Pin.IN)
 tambor4 = Pin(33, Pin.IN) 
 # pedal = machine.ADC(machine.Pin(34))
 
-musica1 = 232 * 3
-# musica2 = 207  * 3
-musica2 = 1
-musica3 = 117 * 3
-musica4 = 84 * 3
+musica1 = 223 * 3
+musica2 = 198  * 3
+# musica2 = 1
+musica3 = 112 * 3
+musica4 = 78 * 3
+music5 = 24 * 3
 
 #Credenciais do WIFI
 nome = "Celofone da Sasá"
@@ -75,6 +76,9 @@ def pegarMusica():
     elif data['Musica'] == 4:
         musica = musica4
         mandarMusica = 4
+    elif data['Musica'] == 5:
+        musica = musica5
+        mandarMusica = 5
     else:
         print("Musica com valor incorreto")
     print(f"musica: {mandarMusica}")
@@ -100,6 +104,7 @@ def getBatidas():
     tambor2Value = tambor2.value()
     tambor3Value = tambor3.value()
     tambor4Value = tambor4.value()
+
     prato2Value = 0
     if prato1Value == 0:
         print(f"Batida Prato 1: {prato1Value}")
