@@ -18,7 +18,7 @@ musica2 = 198  * 3
 # musica2 = 1
 musica3 = 112 * 3
 musica4 = 78 * 3
-music5 = 24 * 3
+musica5 = 24 * 3
 
 #Credenciais do WIFI
 nome = "Celofone da Sasá"

@@ -105,7 +105,7 @@ header {
 
 .belt1 {
     width: 3.5rem;
-    height: 115%; /* Ajuste a altura conforme necessário */
+    height: 110%; /* Ajuste a altura conforme necessário */
     background-color: black;
     box-shadow: 0 0 30px rgba(255, 0, 0, 0.61);
     position: absolute;
@@ -115,7 +115,7 @@ header {
 
 .belt2 {
     width: 3.5rem;
-    height: 140%; /* Ajuste a altura conforme necessário */
+    height: 110%; /* Ajuste a altura conforme necessário */
     background-color: black;
     box-shadow: 0 0 30px rgba(255, 242, 0, 0.61);
     position: absolute;
@@ -125,7 +125,7 @@ header {
 
 .belt3 {
     width: 3.5rem;
-    height: 123%; /* Ajuste a altura conforme necessário */
+    height: 110%; /* Ajuste a altura conforme necessário */
     background-color: black;
     box-shadow: 0 0 30px rgba(38, 255, 0, 0.61);
     position: absolute;
@@ -145,7 +145,7 @@ header {
 
 .belt4 {
     width: 3.5rem;
-    height: 123%; /* Ajuste a altura conforme necessário */
+    height: 110%; /* Ajuste a altura conforme necessário */
     background-color: black;
     box-shadow: 0 0 30px rgba(0, 30, 255, 0.61);
     position: absolute;
@@ -155,7 +155,7 @@ header {
 
 .belt5 {
     width: 3.5rem;
-    height: 142%; /* Ajuste a altura conforme necessário */
+    height: 110%; /* Ajuste a altura conforme necessário */
     background-color: black;
     box-shadow: 0 0 30px rgba(157, 0, 255, 0.61);
     position: absolute;
@@ -165,7 +165,7 @@ header {
 
 .belt6 {
     width: 3.5rem;
-    height: 109%; /* Ajuste a altura conforme necessário */
+    height: 110%; /* Ajuste a altura conforme necessário */
     background-color: black;
     box-shadow: 0 0 30px rgba(255, 0, 221, 0.61);
     position: absolute;
