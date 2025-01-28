@@ -1,0 +1,37 @@
+Dia 1 (01/07):
+	Todos:  Ideia para o projeto, pesquisa sobre os componentes e materiais necessários.
+	Todos:  Interface inicial da parte web
+
+Dia 2 (02/07):
+	Wallace e Nicole: Código base dos sensores no thonny (Testado com botões, pq não tinhamos os sensores ainda)
+	Sabrina: Escrita das músicas no js e continuação da interface
+
+Dia 3 (03/07):
+	Wallace e Nicole: Testar a sensibilidade do sensor e fazer o código de detecção dos sensores
+	Sabrina: Continuação codigo js.
+
+Dia 4 (04/07):
+	Todos: Descoberta de um bug do sensor, o que impossibilitou o seu uso para o projeto.
+	Todos: Mandar informações para o FireBase
+
+Dia 5 (05/07):
+	Nicole: Fazer a proteção de todos os sensores, colocar os jumpers nos sensores
+	Sabrina: fazer a página web pra pegar o nome do usuário e a música escolhida
+	Sabrina: mandar essas duas informações para o firebase
+
+Dia 6 (08/07):
+	Sabrina e Wallace: Arrumar as bolinhas que estavam descendo errado no site, terminar a base da bateria, fazer a tela de pontuação do final do jogo
+	Todos: Testar se os sensores estão funcionando
+	Nicole: Arrumar o código para o outro sensor
+
+Dia 7 (09/07):
+	Sabrina: Adicionar uma nova música, colocar a pontuação na tela
+	Todos: Conferir possíveis bugs
+	Wallace: Fazer slides de apresentação do projeto.
+
+Dia 8 (10/07):
+	 Todos: teste do jogo
+
+Dia 9 (11/07):
+	Todos: Ultimo teste do jogo antes da apresentação
+	Todos: Apresentação do projeto

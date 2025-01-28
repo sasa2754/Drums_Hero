@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pontuação🎵🥁</title>
+</head>
+<body id="pontuacao">
+    <header style="z-index: 20;" class="centralize">
+        <!-- <h1 class="font">Pontuação Final</h1> -->
+    </header>
+
+    <div class="voltar">
+        <button class="font" onclick="window.location.href='index.html'">Voltar</button>
+    </div>
+    
+    <div class="pontuacaoPosition">
+        <h1 class="font centralize">Pontuação Total :</h1>
+        <h1 class="font centralize"></h1>
+        <!-- <div id="displayPontuacao" class="font centralize" style="font-size: 50px;"></div> -->
+    </div>
+    <div id="pontuacaoPercentual" class="font centralize" style="font-size: 60px;"></div>
+
+    <h1 class="centralize" style="font-size: 100px;">😁👏</h1>
+    <script>
+        function getRandomIntInclusive(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            let randomPercent = getRandomIntInclusive(1, 100);
+            document.getElementById('pontuacaoPercentual').textContent = randomPercent + '%';
+        });
+    </script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
